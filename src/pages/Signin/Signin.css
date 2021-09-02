@@ -1,0 +1,83 @@
+.sign-in-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: stretch;
+}
+
+.sign-in-container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  max-width: 700px;
+}
+
+.sign-in-container .content .animation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.sign-in-container .content .animation-container form {
+  margin: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  text-align: center;
+}
+
+.sign-in-container .content .animation-container form h1 {
+  margin-bottom: 24px;
+}
+
+.sign-in-container .content .animation-container form a {
+  color: #f4edf8;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.sign-in-container .content .animation-container form a:hover {
+  color: #ff9000;
+}
+
+.sign-in-container .content .animation-container > a {
+  color: #f4edf8;
+  text-decoration: none;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+}
+.sign-in-container .content .animation-container > a svg {
+  margin-right: 16px;
+}
+
+.sign-in-container .content .animation-container > a:hover {
+  color: #ff9000;
+}
+
+.sign-in-container .sign-in-background {
+  flex: 1;
+  background-image: url('../../assets/sign-in-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

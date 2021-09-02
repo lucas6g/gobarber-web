@@ -1,0 +1,41 @@
+.appointment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.appointment span {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  color: #f4efeb;
+}
+
+.appointment svg {
+  color: #ff9000;
+  margin-right: 8px;
+}
+
+.appointment div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  background-color: #3e3b47;
+  padding: 16px 24px;
+  border-radius: 10px;
+  margin-left: 24px;
+}
+
+.appointment div img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.appointment div strong {
+  margin-left: 24px;
+  color: white;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  font-size: 20px;
+}

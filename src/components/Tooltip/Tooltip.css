@@ -1,0 +1,40 @@
+.tooltip-container {
+  height: 20px;
+  margin-left: 16px;
+  position: relative;
+}
+.tooltip-container span {
+  background-color: #c53030;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 160px;
+  opacity: 0;
+  transition: opacity 0.4s;
+
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+/* flexa embaixo do tooltip */
+.tooltip-container span::before {
+  content: '';
+  border-style: solid;
+  border-color: #c53030 transparent;
+  border-width: 6px 6px 0 6px;
+  top: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tooltip-container span:hover {
+  opacity: 1;
+}
+
+.tooltip-container svg {
+  margin: 0px !important;
+}

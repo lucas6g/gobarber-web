@@ -1,0 +1,97 @@
+.dashboard-content {
+  max-width: 1120px;
+  margin: 64px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-content .schedule {
+  flex: 1;
+  margin-right: 120px;
+}
+
+.dashboard-content .schedule h1 {
+  font-size: 36px;
+}
+
+.dashboard-content .schedule p {
+  margin-top: 8px;
+  color: #ff9000;
+  font-weight: 500;
+}
+
+.dashboard-content .schedule p spam {
+  margin-left: 8px;
+  padding-left: 8px;
+  border-left: 1px solid #ff9000;
+}
+
+.dashboard-content .schedule .next-appointment {
+  margin-top: 64px;
+}
+
+.dashboard-content .schedule .next-appointment strong {
+  color: #999591;
+  font-size: 20px;
+  font-weight: 400;
+}
+.dashboard-content .schedule .next-appointment .next {
+  display: flex;
+  align-items: center;
+
+  background-color: #3e3b47;
+  padding: 16px 24px;
+  border-radius: 10px;
+  margin-top: 24px;
+  position: relative;
+}
+
+.dashboard-content .schedule .next-appointment .next ::before {
+  position: absolute;
+  height: 80%;
+  width: 1px;
+  left: 0;
+  top: 10%;
+  content: '';
+  background-color: #ff9000;
+}
+
+.dashboard-content .schedule .next-appointment .next img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.dashboard-content .schedule .next-appointment .next strong {
+  margin-left: 24px;
+  color: white;
+}
+
+.dashboard-content .schedule .next-appointment .next span {
+  display: flex;
+  align-items: center;
+  color: #999591;
+  margin-left: auto;
+}
+.dashboard-content .schedule .next-appointment .next svg {
+  color: #ff9000;
+  margin-right: 8px;
+}
+
+.dashboard-content .schedule .next-appointment section {
+  margin-top: 48px;
+}
+
+.dashboard-content .schedule .next-appointment section strong {
+  color: #999591;
+  font-size: 20px;
+  line-height: 26px;
+  border-bottom: 1px solid #3e3b47;
+  display: block;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.dashboard-content .calendar {
+  width: 380px;
+}

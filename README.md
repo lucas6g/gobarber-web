@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+<p align="center">
+    <img width="300" align="center" src="https://camo.githubusercontent.com/16835b1a5f23e90f29511dda2b27f599216ff2db217e2ae9bda1906b6ae2fc02/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a4158704f706242507438464a43444e6a79524f6878412e706e67">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    GoBarber Web
+</h1>
 
-## Available Scripts
+<h3 align="center">
+Plataforma de agendamento e gerenciamento para barbearias
+</h3>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#rocket-sobre-o-projeto">Sobre o projeto</a> | <a href="#computer-tecnologias">Tecnologias</a> | <a href="#books-guia-de-instalação-e-execução">Guia de instalação e execução</a> |
+</p>
 
-### `yarn start`
+## Layout
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="https://user-images.githubusercontent.com/49662901/81240473-e8881c00-8fdd-11ea-9d47-740980f0eb6c.png">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :rocket: Sobre o projeto
 
-### `yarn test`
+<p>Esta é uma plataforma completa onde o cliente pode visualizar a agenda de barbeiros e agendar um horário,
+e para barbeiros, permite gerenciar os horários marcados.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>Com a versão web, os barbeiros poderão gerenciar sua agenda controlando os horários que foram marcados pelos clientes através da versão mobile.</p>
 
-### `yarn build`
+<p>Este é o repositório da versão web do projeto.</p>
+<ul>
+  <li>Para a api REST, <a href="https://github.com/lucas6g/gobarber-backend">clique aqui</a>.</li>
+  <li>Para a versão mobile, <a href="https://github.com/lucas6g/gobarber-mobile">aqui</a>.</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :computer: Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React.js](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [ESLint-Airbnb](https://eslint.org/), [Prettier](https://prettier.io/) e [EditorConfig](https://editorconfig.org/)
+- [Axios](https://github.com/axios/axios)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
+- [Yup](https://github.com/jquense/yup)
+- [Jest](https://jestjs.io/)
+- [Uuidv4](https://github.com/thenativeweb/uuidv4)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :books: Guia de instalação e execução
 
-### `yarn eject`
+### Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/) v10.20 ou maior
+- [Yarn](https://yarnpkg.com/)
+- [Api REST do GoBarber](https://github.com/lucas6g/gobarber-backend)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Como executar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<i>Antes de executar estes passos, certifique-se que sua api REST esteja em execução</i>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Clone o repositório `git clone https://github.com/lucas6g/gobarber-web`
+- Vá até o diretório `cd gobarber-web`
+- Execute `yarn` para instalar as dependências
+- Execute `yarn start` para rodar o servidor

@@ -1,0 +1,88 @@
+.profile-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-container header {
+  width: 100%;
+  height: 144px;
+  background-color: #282626;
+  display: flex;
+  align-items: center;
+}
+.profile-container header a {
+  margin-left: 200px;
+  text-decoration: none;
+}
+.profile-container header a svg {
+  color: #999591;
+  width: 24px;
+  height: 24px;
+}
+
+.profile-container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: -176px auto 0;
+  width: 100%;
+  max-width: 700px;
+}
+
+.profile-container .content form {
+  margin: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+}
+.profile-container .content form h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-right: 229px;
+  font-size: 20px;
+}
+
+.profile-container .content form .avatar-input {
+  margin-bottom: 32px;
+  position: relative;
+  width: 186px;
+  align-self: center;
+}
+
+.profile-container .content form .avatar-input img {
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+}
+.profile-container .content form .avatar-input label {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #ff9000;
+  bottom: 0;
+  right: 0;
+  border: 0px;
+  top: 140px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 1s;
+}
+.profile-container .content form .avatar-input label input {
+  display: none;
+}
+
+.profile-container .content form .avatar-input label svg {
+  width: 20px;
+  height: 20px;
+}
+.profile-container .content form .avatar-input label:hover {
+  background-color: #282626;
+}

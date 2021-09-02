@@ -1,0 +1,62 @@
+.dashboard-header {
+  padding: 32px 0px;
+  background-color: #28262e;
+}
+
+.header-content {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.header-content > img {
+  height: 80px;
+}
+
+.header-content .profile {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.header-content .profile a {
+  text-decoration: none;
+  color: #ff9000;
+}
+.header-content .profile a:hover {
+  opacity: 0.8;
+}
+
+.header-content .profile img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.header-content .profile .profile-content {
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+}
+
+.header-content .profile .profile-content span {
+  color: #f4ede8;
+}
+.header-content .profile .profile-content strong {
+  color: #ff9000;
+}
+
+.header-content .header-content-button {
+  margin-left: auto;
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border: 0;
+}
+.header-content .header-content-button svg {
+  color: #999591;
+  height: 20px;
+  width: 20px;
+}

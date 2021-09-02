@@ -1,0 +1,48 @@
+.input-container {
+  background-color: #232129;
+  border-radius: 10px;
+  border: 2px solid #232129;
+  padding: 16px;
+  width: 100%;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.input-container.focus {
+  border: 2px solid #ff9000;
+  color: #ff9000;
+}
+.input-container#error {
+  border: 2px solid #c53030;
+}
+
+.input-container input {
+  color: white;
+  flex: 1;
+  background-color: transparent;
+  border: 0px;
+}
+
+/* altera a cor de fundo do input no autocomplete do google crome  */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #232129 inset !important;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: #f4edf8 !important;
+}
+
+/* altera a cor do texto do input autocomplete do google crome  */
+.input-container svg {
+  margin-right: 16px;
+}
+
+.input-container svg.focus {
+  color: #ff9000;
+}
+
+.input-container input::placeholder {
+  color: #f4edf8;
+}
